@@ -5,7 +5,7 @@
                 <h1>VWP</h1>
             </div>
             <div class="nav-links">
-                <router-link :to="''" class="nav-link"> HOME </router-link>
+                <router-link :to="'/'" class="nav-link"> HOME </router-link>
                 <router-link :to="'about'" class="nav-link"> ABOUT US </router-link>
                 <router-link :to="'services'" class="nav-link"> SERVICES </router-link>
                 <router-link :to="'contact'" class="nav-link"> CONTACT US </router-link>
