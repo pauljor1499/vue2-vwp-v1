@@ -1,5 +1,5 @@
 <template>
-    <div class="main-content">
+    <div class="section4-page">
         <div class="header">
             <h1>Virtual Webinar Features</h1>
             <p>
@@ -11,59 +11,56 @@
             <div class="body-items">
                 <div class="item">
                     <div class="icon">
-                        <img src=" https://www.freeiconspng.com/thumbs/check-tick-icon/tick-mark-icon-png-7.png" alt="" />
+                        <img src="@/assets/landing_page/section4/check.png" alt="" />
                     </div>
                     <span>Conduct video meetings</span>
                 </div>
                 <div class="item">
                     <div class="icon">
-                        <img src=" https://www.freeiconspng.com/thumbs/check-tick-icon/tick-mark-icon-png-7.png" alt="" />
+                        <img src="@/assets/landing_page/section4/check.png" alt="" />
                     </div>
                     <span>Share your screen</span>
                 </div>
                 <div class="item">
                     <div class="icon">
-                        <img src=" https://www.freeiconspng.com/thumbs/check-tick-icon/tick-mark-icon-png-7.png" alt="" />
+                        <img src="@/assets/landing_page/section4/check.png" alt="" />
                     </div>
                     <span>Record & share web meetings</span>
                 </div>
                 <div class="item">
                     <div class="icon">
-                        <img src=" https://www.freeiconspng.com/thumbs/check-tick-icon/tick-mark-icon-png-7.png" alt="" />
+                        <img src="@/assets/landing_page/section4/check.png" alt="" />
                     </div>
                     <span>Interact with your audience</span>
                 </div>
                 <div class="item">
                     <div class="icon">
-                        <img src=" https://www.freeiconspng.com/thumbs/check-tick-icon/tick-mark-icon-png-7.png" alt="" />
+                        <img src="@/assets/landing_page/section4/check.png" alt="" />
                     </div>
                     <span>Protect and moderate online meetings</span>
                 </div>
                 <div class="item">
                     <div class="icon">
-                        <img src=" https://www.freeiconspng.com/thumbs/check-tick-icon/tick-mark-icon-png-7.png" alt="" />
+                        <img src="@/assets/landing_page/section4/check.png" alt="" />
                     </div>
                     <span>Multi-presenter webinars</span>
                 </div>
             </div>
             <div class="body-image">
-                <img
-                    src="https://img.freepik.com/free-vector/online-tutorials-concept_52683-37481.jpg?w=826&t=st=1659873958~exp=1659874558~hmac=460ed6e986615bccd05a4da74929e5c51a035fa808ee4fcb35dc99cec43c40f1"
-                    alt=""
-                />
+                <img src="@/assets/landing_page/section4/virtual_webinar.png" alt="" />
             </div>
         </div>
     </div>
 </template>
 
 <style scoped>
-.main-content {
+.section4-page {
     display: flex;
     flex-direction: column;
-    padding: 100px 70px 100px 70px;
+    padding: 100px 5%;
 }
 
-.main-content .header {
+.header {
     width: 50%;
     margin: auto;
     text-align: center;
@@ -73,36 +70,36 @@ p {
     opacity: 80%;
 }
 
-.main-content .body {
+.body {
     width: 100%;
     margin-top: 50px;
 
     display: flex;
 }
 
-.main-content .body .body-items,
+.body-items,
 .body-image {
     flex: 1;
 }
 
-.main-content .body .body-items {
+.body-items {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.main-content .body .body-items .item {
+.item {
     display: flex;
 }
 
-.main-content .body .body-items span {
+.body-items span {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 15px;
 }
 
-.main-content .body .body-items .icon {
+.icon {
     width: 50px;
     height: 50px;
     display: flex;
@@ -110,11 +107,11 @@ p {
     align-items: center;
 }
 
-.main-content .body .body-items .icon img {
+.icon img {
     width: 35px;
 }
 
-.main-content .body .body-image img {
+.body-image img {
     width: 100%;
     display: block;
 }

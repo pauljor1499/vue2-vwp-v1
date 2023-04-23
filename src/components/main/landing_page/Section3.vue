@@ -49,7 +49,7 @@
 .section3-page {
     display: flex;
     flex-direction: column;
-    padding: 100px 70px 100px 70px;
+    padding: 100px 5%;
     background: #ecfff1;
     background-image: url("https://demo.themewinter.com/html/exhibz/classic/images/bg/feature_bg.png");
     background-size: cover;

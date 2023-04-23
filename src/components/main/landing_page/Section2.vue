@@ -43,13 +43,12 @@
     text-decoration: none;
     list-style: none;
     text-transform: initial;
-
     font-weight: bold;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
 .section2-page {
-    padding: 100px 70px 100px 70px;
+    padding: 100px 5%;
     display: flex;
     flex-direction: column;
 }
