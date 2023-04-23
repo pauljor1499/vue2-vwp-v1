@@ -23,7 +23,7 @@
 
 .left-section {
     flex: 1;
-    padding: 5%;
+    padding: 8% 5%;
     color: white;
     display: flex;
     flex-direction: column;
