@@ -8,28 +8,25 @@
             <ul class="rows">
                 <li class="item1">
                     <div class="icon1">
-                        <img src="https://demo.themewinter.com/html/exhibz/classic/images/icons/icon1.png" alt="" />
+                        <img src="@/assets/landing_page/section2/icon1.png" alt="" />
                     </div>
                     <span>Webinars</span>
                 </li>
                 <li class="item2">
                     <div class="icon2">
-                        <img src="https://demo.themewinter.com/html/exhibz/classic/images/icons/icon5.png" alt="" />
+                        <img src="@/assets/landing_page/section2/icon2.png" alt="" />
                     </div>
                     <span>Virtual Events</span>
                 </li>
                 <li class="item3">
                     <div class="icon3">
-                        <img
-                            src="https://bl3301files.storage.live.com/y4miE8NeEBog_GuyjxCo81ZPpFel5WMOjjqxZfB8YXtREglWsYN6yAo85dyxW8Z1gAG-SIAq6sPoMA8BQaD6sZun1bPbXsp28LSS7piGWy9OcEZJprq816p2N-1tSrWzVOJWL9thd5a-yXnJhK5yeQtnuN0mn7ZIY2Xy69_U-_nMkjgz4zx2e7edCXVTyu-KUEO?width=362&height=248&cropmode=none"
-                            alt=""
-                        />
+                        <img src="@/assets/landing_page/section2/icon3.png" alt="" />
                     </div>
                     <span>Consultation</span>
                 </li>
                 <li class="item4">
                     <div class="icon4">
-                        <img src="https://demo.themewinter.com/html/exhibz/classic/images/icons/icon4.png" alt="" />
+                        <img src="@/assets/landing_page/section2/icon4.png" alt="" />
                     </div>
                     <span>Professional Development</span>
                 </li>
