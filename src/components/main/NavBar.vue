@@ -12,8 +12,8 @@
             </div>
         </div>
         <div class="action-buttons">
-            <v-btn outlined color="#1FC75B" to="login"> Sign In </v-btn>
-            <v-btn color="#1FC75B" dark to="register"> Sign Up, It's Free </v-btn>
+            <v-btn class="rounded-0" outlined color="#1FC75B" to="login"> Sign In </v-btn>
+            <v-btn class="rounded-0" color="#1FC75B" dark to="register"> Sign Up, It's Free </v-btn>
         </div>
     </div>
 </template>
