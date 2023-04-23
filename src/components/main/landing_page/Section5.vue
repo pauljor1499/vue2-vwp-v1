@@ -1,9 +1,13 @@
 <template>
-    <div class="main-content">
+    <div class="section5-page">
         <div class="header">
-            <h1>Ready To Join The Virtual Webinar Platform?</h1>
-            <p>Sign Up Today And Get Your First Webinar Live Within Minutes!</p>
-            <v-btn color="#1FC75B" dark x-large to="/sign-up"> GET STARTED </v-btn>
+            <div class="header-title">
+                <h1>Ready To Join The Virtual Webinar Platform?</h1>
+                <p>Sign Up Today And Get Your First Webinar Live Within Minutes!</p>
+            </div>
+            <v-btn class="rounded-0" width="25%" outlined style="background-color: white" color="#1FC75B" dark x-large to="register">
+                GET STARTED
+            </v-btn>
         </div>
         <div class="body"></div>
     </div>
@@ -16,18 +20,25 @@
     text-transform: initial;
 }
 
-.main-content {
+.section5-page {
     display: flex;
     flex-direction: column;
-    padding: 100px 70px 100px 70px;
-    background-image: url("https://bl3301files.storage.live.com/y4m7gigwqV0zIA2dQmRp-b1NFsg-pkXsXilIEmswo2SmwlU8CqZN-SzBqqYsfTBeEG04pEAeKLhwxC0rkkoJZ0_g6gGRngeKnzJZjI6y5C5fSDvB6ZDAww_F9nQy2H3LcpGkTsA03H7E5_yDkpNetQamTVX0kS5rvL51HpB4ZUETSkLKfAdDmxWoU6IqZbrxi06?width=2880&height=932&cropmode=none");
+    padding: 100px 5%;
+    background-image: url("@/assets/landing_page/section5/background-people.jpg");
 }
 
-.main-content .header {
+.header {
     width: 75%;
     margin: auto;
-    text-align: center;
     color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.header-title {
+    text-align: center;
 }
 
 h1 {
@@ -38,7 +49,7 @@ p {
     font-size: 1.5em;
 }
 
-.main-content .body {
+.body {
     width: 100%;
     margin-top: 50px;
 }
