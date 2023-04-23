@@ -44,6 +44,10 @@
     gap: 10rem;
 }
 
+.logo {
+    color: #00c545;
+}
+
 .nav-links {
     display: flex;
     justify-content: space-between;
