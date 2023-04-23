@@ -1,5 +1,5 @@
 <template>
-    <div class="main-content">
+    <div class="section2-page">
         <div class="header">
             <h1>Virtual Conference for Solving Problems</h1>
             <p>Virtual Webinar Platform has vast experience creating customized virtual hubs and integrating various webinar platforms.</p>
@@ -48,13 +48,13 @@
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
-.main-content {
+.section2-page {
     padding: 100px 70px 100px 70px;
     display: flex;
     flex-direction: column;
 }
 
-.main-content .header {
+.header {
     width: 50%;
     margin: auto;
     text-align: center;
@@ -64,24 +64,24 @@ p {
     opacity: 80%;
 }
 
-.main-content .body {
+.body {
     width: 100%;
     margin: auto;
     margin-top: 50px;
 }
 
-.body .rows {
+.rows {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 50px;
     row-gap: 50px;
 }
 
-.body .rows li {
+.rows li {
     display: flex;
 }
 
-.body .rows li .icon1,
+.icon1,
 .icon2,
 .icon3,
 .icon4 {
@@ -92,7 +92,7 @@ p {
     align-items: center;
 }
 
-.body .rows li span {
+.rows li span {
     font-size: 1.5em;
     padding-left: 10%;
     display: flex;
