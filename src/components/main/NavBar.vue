@@ -5,13 +5,14 @@
                 <h1>VWP</h1>
             </div>
             <div class="nav-links">
-                <router-link :to="'/'" class="nav-link"> HOME </router-link>
-                <router-link :to="'/about'" class="nav-link"> ABOUT US </router-link>
-                <router-link :to="'/services'" class="nav-link"> SERVICES </router-link>
-                <router-link :to="'/contact'" class="nav-link"> CONTACT US </router-link>
+                <router-link :to="''" class="nav-link"> HOME </router-link>
+                <router-link :to="'about'" class="nav-link"> ABOUT US </router-link>
+                <router-link :to="'services'" class="nav-link"> SERVICES </router-link>
+                <router-link :to="'contact'" class="nav-link"> CONTACT US </router-link>
             </div>
         </div>
         <div class="action-buttons">
+            <v-btn class="rounded-0" outlined color="#1FC75B" to="join"> Join </v-btn>
             <v-btn class="rounded-0" outlined color="#1FC75B" to="login"> Sign In </v-btn>
             <v-btn class="rounded-0" color="#1FC75B" dark to="register"> Sign Up, It's Free </v-btn>
         </div>
